@@ -29,7 +29,7 @@ setup(
     author_email='s0md3v@gmail.com',
     maintainer='Somdev Sangwan',
     maintainer_email='s0md3v@gmail.com',
-    install_requires=['requests','html2text'],
+    install_requires=['requests','html2text @ git+https://github.com/s0mu/html2text.git'],
     packages=['ote'],
     zip_safe=True,
     entry_points={
